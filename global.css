@@ -9,3 +9,10 @@ body {
 #maincontent {
   margin: 10px;
 }
+.postmain{
+    padding: 10px;
+    border: 2px solid black;
+}
+header{
+    margin-bottom: 10px;
+}
