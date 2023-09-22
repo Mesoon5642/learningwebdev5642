@@ -11,5 +11,8 @@
     "live-server": "^1.2.2w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
 }
