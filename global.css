@@ -2,9 +2,40 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+li{
+  margin: 1rem auto;
+  width: 20rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: beige;
+}
 body {
   font-family: sans-serif;
   margin: 0;
+}
+header{
+    margin-bottom: 10px;
+}
+li a{
+  text-decoration: none;
+}
+li a:hover{
+  background-color: aliceblue;
+}
+li a div {
+  padding: 2rem;
+  text-align: center;
+}
+li a div img{
+  width: 100%;
+}
+li a div p{
+  margin-bottom: 0;
+  color: black;
 }
 #maincontent {
   margin: 10px;
@@ -12,7 +43,17 @@ body {
 .postmain{
     padding: 10px;
     border: 2px solid black;
+    width: 90%;
+    margin: auto;
 }
-header{
-    margin-bottom: 10px;
+.like{
+  width:10%;
+  background-color: grey;
+  margin: auto;
+}
+.likediv{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
